@@ -115,7 +115,7 @@ The Software is written in C++, compiled and uploaded to the micro controller by
 <div align="center"><img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/bezelconstuction1.jpg" alt="bezel constuction" width="45%"/><img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/bezelcon2.jpg" alt="bezel construction" width="45%"/></div>
 
 ## Note on PWM
-A resistor-capacitor filter was added to the PWM channel to flatten the signal, as the crydom really needed a smooth 0-5v (EG, 50% duty cycle the output voltage is 2.5v and 100% duty cycle 5v).
+A resistor-capacitor filter was added to the PWM channel to flatten the signal, as the crydom relay needed a smooth 0-5v (EG, 50% duty cycle the output voltage is 2.5v and 100% duty cycle 5v).
 
 <div align="center"><img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/new%20end%20point.png" alt="bezel constuction" width="45%"/></div>
 
