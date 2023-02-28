@@ -1,7 +1,7 @@
 
 # Fan_Speed_Control
 <h1 align="center">
-   <img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/fanspeedcontrol.gif" alt="Project Image"/>
+   <img src="https://github.com/jonathanw82/fanControlReadMe/blob/main/media/fanspeedcontrol.gif" alt="Project Image"/>
  </h1>
  
 
@@ -102,22 +102,22 @@ The Software is written in C++, compiled and uploaded to the micro controller by
 ## Construction:
 * Wiring Schematic
 
-<div align="center"><img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/fan_speed_%20schematic.jpg" alt="Wiring Schematic" width="100%"/></div>
+<div align="center"><img src="https://github.com/jonathanw82/fanControlReadMe/blob/main/media/fan_speed_%20schematic.jpg" alt="Wiring Schematic" width="100%"/></div>
 
-<div align="center"><img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/fan_speed_schematic_power.jpg" alt="Wiring Schematic" width="100%"/></div>
+<div align="center"><img src="https://github.com/jonathanw82/fanControlReadMe/blob/main/media/fan_speed_schematic_power.jpg" alt="Wiring Schematic" width="100%"/></div>
 
 
 * 3D printed Bezel
 
-<div align="center"><img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/img1.jpg" alt="3D print" width="45%"/><img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/img2.jpg" alt="3D print" width="43%"/></div>
+<div align="center"><img src="https://github.com/jonathanw82/fanControlReadMe/blob/main/media/img1.jpg" alt="3D print" width="45%"/><img src="https://github.com/jonathanw82/fanControlReadMe/blob/main/media/img2.jpg" alt="3D print" width="43%"/></div>
 
 #
-<div align="center"><img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/bezelconstuction1.jpg" alt="bezel constuction" width="45%"/><img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/bezelcon2.jpg" alt="bezel construction" width="45%"/></div>
+<div align="center"><img src="https://github.com/jonathanw82/fanControlReadMe/blob/main/media/bezelconstuction1.jpg" alt="bezel constuction" width="45%"/><img src="https://github.com/jonathanw82/fanControlReadMe/blob/main/media/bezelcon2.jpg" alt="bezel construction" width="45%"/></div>
 
 ## Note on PWM
 A resistor-capacitor filter was added to the PWM channel to flatten the signal, as the crydom relay needed a smooth 0-5v (EG, 50% duty cycle the output voltage is 2.5v and 100% duty cycle 5v).
 
-<div align="center"><img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/new%20end%20point.png" alt="bezel constuction" width="45%"/></div>
+<div align="center"><img src="https://github.com/jonathanw82/fanControlReadMe/blob/main/media/new%20end%20point.png" alt="bezel constuction" width="45%"/></div>
 
 
 
@@ -153,7 +153,7 @@ On pressing the rotary encoder centre button
 When setting the Min and Max values if the the Min value exceeds the Max value it will become the whatever the current Max value is -5, the opsoite if Max is less than the Min value it will become whatever the Min value is +5.
 
 
-<div align="center"><img src="https://github.com/jonathanw82/Fan_speed_control/blob/main/media/setupflow.jpg" alt="Setup flow Chart" width="100%"/></div>
+<div align="center"><img src="https://github.com/jonathanw82/fanControlReadMe/blob/main/media/setupflow.jpg" alt="Setup flow Chart" width="100%"/></div>
 
 #
 
